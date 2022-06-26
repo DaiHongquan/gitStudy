@@ -53,7 +53,7 @@ GitHub https://github.com/ 开源的软件项目托管平台
 `git fetch origin issue12` 从远程库更新,从远程库issue12更新到本地库issue12
 `git pull origin issue13`  远程获取并更新,相当于 git fetch + git merge
 ## 查看日志
-git log -p issue12..origin/issue12  -p选项展开显示每次提交的内容差异   git log --pretty=oneline 简化输出  --abbrev-commit 
+git log -p issue12..origin/issue12  -p选项展开显示每次提交的内容差异   git log --pretty=oneline 简化输出  --abbrev-commit   --oneline 简化 --graph 图形化
 `git reflog` 全部日志
 
 ## 克隆
